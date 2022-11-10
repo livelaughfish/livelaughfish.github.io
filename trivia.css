@@ -4,16 +4,20 @@ body {
 
 main {
     background-image:linear-gradient(
-        rgba(255, 0, 0, 1) 10%,
-        rgba(255, 154, 0, 1) 20%,
-        rgba(208, 222, 33, 1) 30%,
-        rgba(79, 220, 74, 1) 40%,
-        rgba(63, 218, 216, 1) 50%,
-        rgba(47, 201, 226, 1) 60%,
-        rgba(28, 127, 238, 1) 70%,
-        rgba(95, 21, 242, 1) 80%,
-        rgba(186, 12, 248, 1) 90%,
-        rgba(251, 7, 217, 1) 100%);
+     to bottom,
+		#e40303,
+		#e40303 16.67%,
+		#ff8c00 16.67%,
+		#ff8c00 33.33%,
+		#ffed00 33.33%,
+		#ffed00 50%,
+		#008026 50%,
+		#008026 66.67%,
+		#004dff 66.67%,
+		#004dff 83.33%,
+		#750787 83.33%,
+		#750787
+		);
     background-repeat: no-repeat;
 
     position: absolute;
@@ -59,4 +63,14 @@ footer{
 footer p {
     color: white; 
     font-family:'Courier New',monospace;
+}
+
+article {
+    background-color: #ddd;
+    position: absolute;
+    padding: 16px 16px;
+    top:0px;
+    bottom: 0px;
+    right: 1in;
+    left: 1in;
 }
