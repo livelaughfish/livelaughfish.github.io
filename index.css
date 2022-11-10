@@ -1,7 +1,10 @@
 #centerblock {
     background-color: black;
+ 
     height: 1in;
-    width: 5in;
+
+    min-width: 2in;
+    max-width: 6in;
 
     position: absolute;
     top:0;
@@ -19,7 +22,7 @@ h1.temporary {
     font-family: 'Courier New', monospace;
     font-size: 2pc;
     font-weight: bold;
-    margin-top: 6%;
+    margin-top: 5%;
     margin-bottom: 20%;
 }
         
