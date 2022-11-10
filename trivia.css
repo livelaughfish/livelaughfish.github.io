@@ -1,0 +1,42 @@
+body {
+    background-image:linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+#topnav a {
+    color: white;
+    padding: 32px 16px;
+    text-decoration: none;
+}
+
+
+#topnav a:hover {
+    background-color: #222;
+}
+
+#topnav a.active {
+    background-color: #693891;
+}
+
+header {
+    font-family:'Arial';
+    font-size: 24px;
+    background:black;
+    padding: 32px 0px;
+}
+
+footer{
+    min-height:10vh; 
+    background:black; 
+    position: absolute;
+    bottom: 1vh;
+    width: 99vw; 
+    height: 10vh; 
+    text-align:center;
+}
+
+footer p {
+    color: white; 
+    font-family:'Courier New',monospace;
+}
